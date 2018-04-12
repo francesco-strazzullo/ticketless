@@ -377,7 +377,7 @@ exports.sendMailWorker = (event, context, callback) => {
   // - 6. If the email send fails exit with an error
   // - 7. If the email send succeeds delete the SQS message from the queue and exit
   //      with success
-})
+}
 ```
 
 If you feel lost or if you need some inspiration you can consult my implementation
